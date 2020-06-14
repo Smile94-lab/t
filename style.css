@@ -1,0 +1,625 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+body {
+  font-family: fontawesome, sans-serif;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: white;
+position: relative;
+text-align: center;
+}
+
+h2 {
+}
+
+.header-wrapper {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  max-width: 1903px;
+  width: 100%;
+}
+.mainlogo {
+margin-top: 40px;
+margin-bottom: 67px;
+margin-right: auto;
+max-width: 325px;
+width: 15%;
+}
+
+.maininfo {
+display: inline-block;
+text-align: center;
+margin-left: 5%;
+margin-top: 60px;
+position: relative;
+font-size: 2vw;
+font-stretch: ultra-condensed;
+font-weight: 700;
+line-height: 110%;
+letter-spacing: 1px;
+color: #005ea8;
+width: 40%;
+}
+
+
+.phones {
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #005ea8;
+  text-align: center;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 40px;
+  white-space: pre;
+  width: 20%;
+  display: inline-block;
+}
+
+
+.impinfo {
+  border-radius: 50px;
+background-color: #bbd4e9;
+width: 100%;
+}
+
+.textinfo {
+    text-align: center;
+    vertical-align: middle;
+    color: #005ea8;
+    font-size: 3.3vw;
+    width:100%;
+    position: relative;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.buildinfo {
+  margin: auto;
+  position: relative;
+  background-color: #ffffff;
+  color: #005ea8;
+  text-align: center;
+}
+.buildinfo h2 {
+margin: auto;
+padding-top: 25px;
+padding-bottom: 20px;
+font-weight: 500;
+font-size: 2.7vw;
+}
+
+.container {
+  max-width: 1624px;
+  margin:0px auto;
+  padding: 0px 15px;
+}
+
+.buildstext{
+  padding-bottom: 25px;
+  font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.2;
+}
+.buildstext1 p {
+  padding-bottom: 25px;
+  font-weight: 400;
+    font-size: 2vw;
+    padding-bottom: 5px;
+}
+.sign {
+  position: relative;
+  display:block;
+    text-align: center;
+  padding: 7px;
+  margin: 10px 0 5px 5px;
+}
+.sign2 figcaption {
+    margin: 0 auto 5px;
+    font-weight: 400;
+    font-size: 2.3vw;
+    color: #0a55de;
+}
+
+.sign2 img {
+    position: relative;
+    max-width: 438px;
+    width: 80%;
+
+  }
+.sign figcaption {
+    margin: 0 auto 5px;
+    font-weight: 400;
+    font-size: 2.3vw;
+    color: #0a55de;
+}
+
+.sign img {
+    position: relative;
+    max-width: 200px;
+    width: 40%;
+    height: 40%;
+
+}
+
+.builds {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.pos1 {
+padding-left: 3%;
+padding-right: 4%;
+}
+.buildspic {
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+  color: #0a55de;
+background-color: #bbd4e9;
+position: relative;
+margin: auto;
+padding: 0 0 20px 0;
+  border-radius: 50px;
+}
+
+.services h4 {
+  font-size: 2.5vw;
+  font-weight: 300;
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.servpicswrapper {
+  margin: auto;
+}
+.servicepics {
+  display: inline-block;
+  width: 33%;
+}
+
+.servicepics figcaption {
+  font-size: 2.3vw;
+  font-weight: 300;
+  width: 50%;
+  text-align: center;
+}
+
+.houses {
+  position: relative;
+  margin: auto;
+}
+.houses h4 {
+  text-align: center;
+  color: #0a55de;
+  font-size: 3vw;
+  font-weight: 300;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.Mhouses {
+  text-align: center;
+
+}
+.Mhouses img {
+  max-width: 650px;
+  max-height: 426px;
+  width: 50%;
+  height: 50%;
+}
+.bottompics {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.firstpic {
+  padding-right: 100px;
+}
+.special {
+  background-color: #005ea8;
+  text-align: center;
+    border-radius: 50px;
+}
+.specialtext {
+  font-size: 2.7vw;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 25px;
+font-weight: 300;
+}
+.redphones {
+  font-weight: 900;
+  padding-bottom: 30px;
+  font-size: 2.8vw;
+color: #b30f0f;
+margin-bottom: 10px;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+}
+.client {
+  font-stretch: condensed;
+font-size: 2.3vw;
+font-weight: 900;
+text-align: center;
+color: #0094fe;
+padding-bottom: 40px;
+}
+
+.client p {
+  font-size: 3.3vw;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.servicepics1 {
+  display: inline-block;
+}
+
+.under {
+    margin: 0 auto 5px;
+    text-align: center;
+    color: #364d5e;
+}
+.above {
+text-align: center;
+}
+
+.brigada {
+  font-weight: 900;
+  font-size: 1.7vw;
+  text-align: center;
+  background-color: #bbd4e9;
+  font-stretch: condensed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.brigadaheader {
+  margin-bottom: 30px;
+}
+.brigadah1 {
+  padding-bottom: 5px;
+}
+footer {
+  background-color: #364d5e;
+}
+footer span {
+margin: 0;
+}
+.ftime {
+  padding: 5px 0 20px 0;
+  width: 33%;
+display: inline-block;
+}
+.fadress {
+    width: 33%;
+      padding: 5px 0 20px 0;
+display: inline-block;
+/* margin-left: 300px;
+margin-right: 300px; */
+
+}
+.fphones {
+    padding: 5px 0 20px 0;
+    width: 33%;
+display: inline-block;
+}
+.finfo {
+  max-width: 1920px;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+}
+.finfo p {
+  font-size: 1.1vw;
+  font-weight: 900;
+}
+.finfo span {
+  font-weight: 700;
+  font-size: 1.5vw;
+  color: #168787;
+}
+.lastphones {
+  font-size: 1.3vw;
+  font-weight: 700;
+}
+
+
+@font-face {
+font-family: "fontawesome";
+src: url("../fonts/FontAwesome.otf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+@media (max-width: 1920px) {
+  .header-wrapper {
+    max-width: 1903px;
+  }
+}
+
+
+@media (max-width: 1624px) {
+  .container {
+    max-width: 970px;
+  }
+  .sign2 img {
+
+  max-width: 200px;
+  max-height: 145px;
+  height: 50%;
+  }
+  .sign2 figcaption {
+    font-size: 1.6vw;
+  }
+  .services h4 {
+font-size: 2vw;
+  }
+  .buildstext1 p {
+    font-size: 1.5vw;
+}
+.servicepics figcaption {
+	font-size: 1.8vw;
+}
+.houses h4 {
+  font-size: 2.7vw;
+}
+.Mhouses img {
+width: 270px;
+height: 170px;
+}
+.sign1 img{
+width: 120px;
+height: 145px;
+}
+}
+@media (max-width: 1343px) {
+  .ftime {
+    width: 20%;
+  }
+  .fadress {
+      width: 20%;
+  }
+  .fphones {
+      width: 20%;
+  }
+  .redphones {
+  -webkit-text-stroke-width: 1px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .sign2 img {
+
+  max-width: 150px;
+  max-height: 95px;
+  height: 50%;
+  }
+  .services h4 {
+	font-size: 1.8vw;
+}
+.sign figcaption {
+	font-size: 1.7vw;
+}
+.sign img {
+  width: 30%;
+  height: 30%;
+}
+.servicepics {
+width: 25%;
+}
+.sign {
+  display: inline-block;
+}
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+
+}
+@media (max-width: 638px) {
+  .Mhouses img {
+  	width: 200px;
+  	height: 100px;
+  }
+
+@media (max-width: 415px) {
+.mainlogo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5%;
+  width: 225px;
+}
+.maininfo {
+display: block;
+  margin: 0 auto;
+    padding-top: 5%;
+    font-size: 5vw;
+    width: 100%;
+}
+
+
+.phones {
+  display: block;
+    margin: 0 auto;
+      padding-top: 3%;
+      padding-bottom: 5%;
+      font-size: 4.5vw;
+      width: 100%;
+}
+.textinfo {
+  font-size: 4.3vw;
+}
+.impinfo {
+  border-radius: 15px;
+}
+.buildinfo h2 {
+  font-size: 5.5vw;
+}
+.buildstext {
+    font-size: 3.5vw;
+  }
+
+  .builds {
+    display: block;
+  }
+    .builds img {
+      max-width: 360px;
+      max-height: 180px;
+      width: 90%;
+      height: 90%;
+    }
+
+.sign2 figcaption {
+  font-size: 4.6vw;
+}
+.services h4 {
+    font-size: 4.8vw;
+  }
+  .buildstext1 p {
+    padding-top: 3%;
+    font-size: 3.3vw;
+}
+.services {
+  border-radius: 15px;
+}
+.servicepics {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 36%;
+}
+.sign img {
+width: 100px;
+height: 100px;
+
+}
+
+.sign figcaption {
+    font-size: 3.5vw;
+  }
+.servicepics figcaption {
+  width: 100%;
+  padding-top: 3%;
+}
+
+.houses h4 {
+    font-size: 5.3vw;
+}
+
+.firstpic {
+  padding-right: 0;
+}
+
+.Mhouses img {
+  width: 300px;
+height: 150px;
+}
+.specialtext {
+  padding-top: 2%;
+	font-size: 4.5vw;
+}
+.redphones {
+	font-size: 6.8vw;
+}
+.client p {
+  font-size: 6vw;
+  padding-bottom: 3%;
+}
+.special {
+  border-radius: 15px;
+}
+.client {
+  font-size: 4vw;
+  padding-bottom: 0;
+}
+.under {
+  padding-bottom: 7%;
+}
+.brigada {
+	font-size: 3.65vw;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	border-radius: 15px;
+	margin-bottom: 0;
+}
+.brigadah1 {
+  font-size: 5vw;
+}
+.ftime {
+  font-size: 2vw;
+  width: 100%;
+  padding-bottom: 2%;
+}
+.fadress {
+    font-size: 2vw;
+      width: 100%;
+        padding-bottom: 2%;
+}
+.fphones {
+  font-size: 2vw;
+    width: 100%;
+      padding-bottom: 2%;
+}
+.finfo span {
+  font-size: 5vw;
+}
+.finfo p {
+  padding-top: 2%;
+    font-size: 4vw;
+  }
+  .lastphones {
+      padding-top: 1%;
+      font-size: 4vw;
+      padding-bottom: 2%;
+
+    }
+  }
